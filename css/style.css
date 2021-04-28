@@ -1,0 +1,47 @@
+.header-photo{
+	background-image: url(../images/group5.jpg);
+	height: 900px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	position: relative;
+}
+.navigation-wr{
+	display: flex;
+	justify-content: space-around;
+}
+.logo1,
+.nav-color {color: #fff;}
+.nav-ul {display: flex;}
+.menu {margin-right: 20px;}
+.title1{ font-family: 'Lato';
+	font-size: 100px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+
+/*	section1*/
+.right-block-image{ background-image: url(../images/rectangle2.jpg);
+height: 600px;
+background-size: cover;
+background-repeat: no-repeat; }
+.left-block,
+.right-block {
+	width: 50%;
+}
+.two-block-wr{
+	display: flex;
+}
+.text1{
+	font-family: 'Lato';
+	font-size: 50px;
+}
+.text2{
+	font-family: 'Lato';
+	font-size: 16px;
+}
