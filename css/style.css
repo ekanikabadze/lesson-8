@@ -29,8 +29,14 @@
 .right-block-image{ background-image: url(../images/rectangle2.jpg);
 height: 600px;
 background-size: cover;
-background-repeat: no-repeat; }
-.left-block,
+background-repeat: no-repeat;}
+.text-center{width: 470px;}
+.left-block {display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .right-block {
 	width: 50%;
 }
@@ -40,8 +46,20 @@ background-repeat: no-repeat; }
 .text1{
 	font-family: 'Lato';
 	font-size: 50px;
+	width: 468px;
 }
 .text2{
 	font-family: 'Lato';
 	font-size: 16px;
+	margin: 25px 0px;
 }
+.viw-button{border-radius: 36px;
+	width: 307px;
+	height: 72px;
+	color: #fff;
+	background-color: #325dff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  }
