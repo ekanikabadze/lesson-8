@@ -63,3 +63,8 @@ background-repeat: no-repeat;}
 	align-items: center;
 
   }
+  /*section2*/
+  .container {
+  	width: 1170px;
+  	margin: 0 auto;
+  }
