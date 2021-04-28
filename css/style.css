@@ -68,3 +68,34 @@ background-repeat: no-repeat;}
   	width: 1170px;
   	margin: 0 auto;
   }
+  .section2-title{text-align: center;}
+  .line-1 {display: flex;
+  	justify-content: space-between;}
+  	.line-2 {display: flex;
+  	justify-content: space-between;
+  	margin-top: 25px;}
+  	.icon-cont{display: flex;
+  		width: 88px;
+  		height: 88px;
+  		background-color: #325dff;
+  		border-radius: 50px;
+  		justify-content: center;
+  		align-items: center;
+  	}
+  .smoll-block{width: 371px;
+  	height: 374px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+
+  }
+  .smoll-block p{
+  	width: 251px;
+  	margin-top: 20px;
+  	text-align: center;
+  }
+  .smoll-block h4 {
+  	width: 251px;
+  	margin-top: 20px;
+  text-align: center;}
