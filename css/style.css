@@ -11,11 +11,13 @@
 .navigation-wr{
 	display: flex;
 	justify-content: space-around;
-}
-.logo1,
-.nav-color {color: #fff;}
+align-items: baseline;}
+/*.logo1,*/
+.nav-color {font-family: 'Poppins';
+font-size: 12px;
+	color: #fff;}
 .nav-ul {display: flex;}
-.menu {margin-right: 20px;}
+.menu {margin-right: 30px;}
 .title1{ font-family: 'Lato';
 	font-size: 100px;
 	color: #fff;
@@ -53,7 +55,9 @@ background-repeat: no-repeat;}
 	font-size: 16px;
 	margin: 25px 0px;
 }
-.viw-button{border-radius: 36px;
+.viw-button{text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 36px;
 	width: 307px;
 	height: 72px;
 	color: #fff;
@@ -68,7 +72,13 @@ background-repeat: no-repeat;}
   	width: 1170px;
   	margin: 0 auto;
   }
-  .section2-title{text-align: center;}
+  .section2-title{ font-family: 'Lato';
+  font-size: 36px;
+  	margin-top: 80px;
+  	margin-bottom: 10px;
+  	text-align: center;}
+  	.text-weigt {width: 771px;
+  	margin: 0 auto;}
   .line-1 {display: flex;
   	justify-content: space-between;}
   	.line-2 {display: flex;
@@ -99,3 +109,10 @@ background-repeat: no-repeat;}
   	width: 251px;
   	margin-top: 20px;
   text-align: center;}
+  .text-lite{font-family: 'Lato';
+font-size: 16px;
+color: #808080;}
+.peace{font-family: 'Lato';
+color: #616161;
+font-size: 18px;
+font-weight: bold;}
